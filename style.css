@@ -1,0 +1,37 @@
+/* HEADER HEADER HEADER */
+.jumbotron {
+     margin-bottom: 0%;
+     padding: 2%;
+     background: linear-gradient(45deg,#cccccc, #032648);
+}
+     .display-4 {
+          margin-bottom: 2%;
+     }
+     .lead {
+          margin-bottom: 0%;
+          line-height: .5em;
+     }
+
+
+/* ROWS AND COLUMNS */
+.row {
+     margin-left: 5%;
+}
+     .time { /* HOURS */
+          border: 1px solid black;
+          height: 5em;
+          line-height: 3em;
+          width: 4em;
+          text-align: center;
+     }
+     .todo { /* USER'S INPUT */
+          width: 70%;
+          border: 1px solid black;
+          line-height: 3em;
+          text-indent: 1em;
+     }
+     .saveBtn { /* SAVE BUTTON */
+          height: 5em;
+          width: 5em;
+          background-color: cornflowerblue;
+     }
