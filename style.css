@@ -2,36 +2,68 @@
 .jumbotron {
      margin-bottom: 0%;
      padding: 2%;
-     background: linear-gradient(45deg,#cccccc, #032648);
+     background: #adc3d8;
+     border: 2px solid;
+     border-bottom-left-radius: 25px;
+     border-bottom-right-radius: 25px;
+     border-top: none;
 }
      .display-4 {
           margin-bottom: 2%;
+          font-family: 'Be Vietnam', sans-serif;
+          font-weight: 400
      }
      .lead {
           margin-bottom: 0%;
-          line-height: .5em;
+          line-height: 2em;
+          font-family: 'Be Vietnam', sans-serif;
+          font-weight: 400
      }
 
 
 /* ROWS AND COLUMNS */
 .row {
-     margin-left: 5%;
+     margin-left: 10%;
 }
      .time { /* HOURS */
           border: 1px solid black;
+          border-top: none;
+          border-left: none;
           height: 5em;
           line-height: 3em;
-          width: 4em;
+          width: 5em;
           text-align: center;
      }
      .todo { /* USER'S INPUT */
           width: 70%;
-          border: 1px solid black;
+          border: .5px solid black;
+          border-top: none;
           line-height: 3em;
           text-indent: 1em;
+          background-color: grey;
      }
-     .saveBtn { /* SAVE BUTTON */
+     button { /* SAVE BUTTON */
           height: 5em;
           width: 5em;
-          background-color: cornflowerblue;
+          background-color: #06AED5;
+          border-top-right-radius: 15px;
+          border-bottom-right-radius: 15px;
+          border: 1px solid;
+          border-top: none;
+          border-left: none;
      }
+          #clearBtn {
+               width: 50%;
+               margin-left: auto;
+               margin-right: auto;
+               display: flex;
+               justify-content: center;
+               background-color: #ffc926;
+               border-radius: 5px;
+               border: .5px black solid;
+               border-top: none;
+          }
+
+body {
+     background-color: #ceccb8;
+}

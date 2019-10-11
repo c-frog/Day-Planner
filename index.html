@@ -6,7 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Day Planner</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -15,111 +17,113 @@
                 <div class="container">
                         <h1 class="display-4">Day Planner</h1>
                         <p class="lead">A simple calendar to plan your workday</p>
-                        <br>
-                        <p class="lead">Current Date</p>
+                        <p class="lead" id="currentTime"></p>
                 </div>
         </div>
 <!-- SET COLUMNS AND ROWS FOR PLANNER -->
+<div id="main-content">
         <div class="row">
                 <div class="column time">
                         9:00
                 </div>
-                <div contenteditable="true" class="column todo">
+                <div contenteditable="true" class="column todo 9" id="9">
                         
                 </div>
                 <div class="column save button">
-                        <button class="saveBtn">Save</button>
+                        <button id="saveBtn9">Save</button>
                 </div>
         </div>
         <div class="row">
                 <div class="column time">
                         10:00
                 </div>
-                <div contenteditable="true" class="column todo">
+                <div contenteditable="true" class="column todo 10" id="10">
                         
                 </div>
                 <div class="column save button">
-                <button class="saveBtn">Save</button>
+                <button id="saveBtn10">Save</button>
                 </div>
         </div>
         <div class="row">
                 <div class="column time"> 
                         11:00
                 </div>
-                <div contenteditable="true" class="column todo">
+                <div contenteditable="true" class="column todo 11"  id="11">
                         
                 </div>
                 <div class="column save button">
-                <button class="saveBtn">Save</button>
+                <button id="saveBtn11">Save</button>
                 </div>
         </div>
         <div class="row">
                 <div class="column time">
                         12:00
                 </div>
-                <div contenteditable="true" class="column todo">
+                <div contenteditable="true" class="column todo 12" id="12">
                         
                 </div>
                 <div class="column save button">
-                <button class="saveBtn">Save</button>
+                <button id="saveBtn12">Save</button>
                 </div>
         </div>
         <div class="row">
                 <div class="column time">
                         1:00
                 </div>
-                <div contenteditable="true" class="column todo">
+                <div contenteditable="true" class="column todo 13" id="1">
                         
                 </div>
                 <div class="column save button">
-                <button class="saveBtn">Save</button>
+                <button id="saveBtn1">Save</button>
                 </div>
         </div>
         <div class="row">
                 <div class="column time">
                         2:00
                 </div>
-                <div contenteditable="true" class="column todo">
+                <div contenteditable="true" class="column todo 14" id="2">
                         
                 </div>
                 <div class="column save button">
-                <button class="saveBtn">Save</button>
+                <button id="saveBtn2">Save</button>
                 </div>
         </div>
         <div class="row">
                 <div class="column time">
                         3:00
                 </div>
-                <div contenteditable="true" class="column todo">
+                <div contenteditable="true" class="column todo 15" id="3">
                         
                 </div>
                 <div class="column save button">
-                <button class="saveBtn">Save</button>
+                <button id="saveBtn3">Save</button>
                 </div>
         </div>
         <div class="row">
                 <div class="column time">
                         4:00
                 </div>
-                <div contenteditable="true" class="column todo">
+                <div contenteditable="true" class="column todo 16" id="4">
                         
                 </div>
                 <div class="column save button">
-                <button class="saveBtn">Save</button>
+                <button id="saveBtn4">Save</button>
                 </div>
         </div>
         <div class="row">
                 <div class="column time">
                         5:00
                 </div>
-                <div contenteditable="true" class="column todo">
+                <div contenteditable="true" class="column todo 17" id="5">
                         
                 </div>
                 <div class="column save button">
-                <button class="saveBtn">Save</button>
+                <button id="saveBtn5">Save</button>
                 </div>
         </div>
-
+</div>
+<button id="clearBtn">Clear Schedule</button>
+        <script src="script.js"> </script>
 </body>         
 
 </html>
