@@ -2,11 +2,12 @@
 .jumbotron {
      margin-bottom: 0%;
      padding: 2%;
-     background: #adc3d8;
-     border: 2px solid;
-     border-bottom-left-radius: 25px;
-     border-bottom-right-radius: 25px;
+     background: #f8f9fa;
+     border: 5px solid;
      border-top: none;
+     border-right: none;
+     border-left: none;
+     text-align: center;
 }
      .display-4 {
           margin-bottom: 2%;

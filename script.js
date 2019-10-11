@@ -45,7 +45,7 @@ var currentHour = time.getHours();
 
 for (let i = 9 ; i < 18; i++) {
     if (currentHour < i) {
-        $("." + i).css('background-color', 'lightgreen')
+        $("." + i).css('background-color', '#75c175a8')
     } else if(currentHour === i)
         $('.'+i).css('background-color', '#01ff3b')
 }
@@ -63,4 +63,4 @@ function updateDay () {
     document.getElementById('currentTime').innerText = months[date.getMonth()] + " " + date.getDate();
 }
 
-$(window).load(updateDay())
+$(document).ready(updateDay())
