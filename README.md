@@ -5,3 +5,5 @@ Click on any hour's slot to add events and to-do items, and save.
 
 Using localStorage the user's input will be saved if the window is
 refreshed or closed until the schedule is cleared.
+
+Link to deployed application https://c-frog.github.io/Day-Planner/
